@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06812183-f94b-414e-9cb8-ab6c4ebfc84f" name="Changes" comment="Added User POJO class, methods to call endpoints and test cases for User.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/DDTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/utilities/DataProviders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/utilities/XLUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testData/UserData.xlsx" afterDir="false" />
+    <list default="true" id="06812183-f94b-414e-9cb8-ab6c4ebfc84f" name="Changes" comment="Created data driven testing:&#10;- Excel Sheet&#10;- Excel Utility&#10;- Data Provider&#10;- DDTests to Create users and delete them.">
+      <change afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2023.03.29.23.18.44.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2023.03.29.23.21.00.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2023.03.29.23.38.52.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Test-Report-2023.03.29.23.42.23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/utilities/ExtentReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +55,7 @@
       <recent name="D:\2022\Java Projects\PetStore_API_Testing\src\main\resources\images" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DDTests">
+  <component name="RunManager" selected="TestNG.D:/2022/Java Projects/PetStore_API_Testing/testng.xml">
     <configuration name="DDTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PetStore_API_Testing" />
       <extension name="coverage">
@@ -60,6 +67,16 @@
       <option name="PACKAGE_NAME" value="api.test" />
       <option name="MAIN_CLASS_NAME" value="api.test.DDTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/2022/Java Projects/PetStore_API_Testing/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStore_API_Testing" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -85,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/2022/Java Projects/PetStore_API_Testing/testng.xml" />
         <item itemvalue="TestNG.DDTests" />
         <item itemvalue="TestNG.UserTests" />
       </list>
@@ -127,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680073151626</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created data driven testing:&#10;- Excel Sheet&#10;- Excel Utility&#10;- Data Provider&#10;- DDTests to Create users and delete them.">
+      <created>1680127958317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680127958317</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +171,7 @@
     <MESSAGE value="Added Routes class with endpoints to User module." />
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Added User POJO class, methods to call endpoints and test cases for User." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added User POJO class, methods to call endpoints and test cases for User." />
+    <MESSAGE value="Created data driven testing:&#10;- Excel Sheet&#10;- Excel Utility&#10;- Data Provider&#10;- DDTests to Create users and delete them." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created data driven testing:&#10;- Excel Sheet&#10;- Excel Utility&#10;- Data Provider&#10;- DDTests to Create users and delete them." />
   </component>
 </project>
