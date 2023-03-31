@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06812183-f94b-414e-9cb8-ab6c4ebfc84f" name="Changes" comment="Created configurations and files to genera reports and logs.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/UserEndPoints2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTests2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/routes.properties" afterDir="false" />
+    <list default="true" id="06812183-f94b-414e-9cb8-ab6c4ebfc84f" name="Changes" comment="Added files to run test cases using routes provider for properties file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Nf2JmKDzQxE1Uj0REsRBO9cVYx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680159261922</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added files to run test cases using routes provider for properties file.">
+      <created>1680233683225</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680233683225</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +184,7 @@
     <MESSAGE value="Added User POJO class, methods to call endpoints and test cases for User." />
     <MESSAGE value="Created data driven testing:&#10;- Excel Sheet&#10;- Excel Utility&#10;- Data Provider&#10;- DDTests to Create users and delete them." />
     <MESSAGE value="Created configurations and files to genera reports and logs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created configurations and files to genera reports and logs." />
+    <MESSAGE value="Added files to run test cases using routes provider for properties file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added files to run test cases using routes provider for properties file." />
   </component>
 </project>
