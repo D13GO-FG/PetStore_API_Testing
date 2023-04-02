@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06812183-f94b-414e-9cb8-ab6c4ebfc84f" name="Changes" comment="Updated pom.xml file to add plugins to run in maven.">
+    <list default="true" id="06812183-f94b-414e-9cb8-ab6c4ebfc84f" name="Changes" comment="Updated README.md">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/PetEndPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/endpoints/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/Routes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680235565562</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated README.md">
+      <created>1680329449928</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680329449928</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,12 +196,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up structure files." />
     <MESSAGE value="Added Routes class with endpoints to User module." />
-    <MESSAGE value="Updated README.md" />
     <MESSAGE value="Added User POJO class, methods to call endpoints and test cases for User." />
     <MESSAGE value="Created data driven testing:&#10;- Excel Sheet&#10;- Excel Utility&#10;- Data Provider&#10;- DDTests to Create users and delete them." />
     <MESSAGE value="Created configurations and files to genera reports and logs." />
     <MESSAGE value="Added files to run test cases using routes provider for properties file." />
     <MESSAGE value="Updated pom.xml file to add plugins to run in maven." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated pom.xml file to add plugins to run in maven." />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
 </project>

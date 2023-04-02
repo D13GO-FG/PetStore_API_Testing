@@ -22,5 +22,11 @@ public class Routes {
 
     // Store module
 
+    public static String pet_post_url = base_url + "/pet";
+    public static String pet_get_url = base_url + "/pet/{id}";
+    public static String pet_update_url = base_url + "/pet";
+    public static String pet_delete_url = base_url + "/pet/{id}";
+
+
     // Pet module
 }
