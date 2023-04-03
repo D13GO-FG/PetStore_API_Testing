@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06812183-f94b-414e-9cb8-ab6c4ebfc84f" name="Changes" comment="Creating Pet endpoints, classes and first post.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/PetTests.java" afterDir="false" />
+    <list default="true" id="06812183-f94b-414e-9cb8-ab6c4ebfc84f" name="Changes" comment="Created PetEndPoints.java Tests to create, read, update and delete pets.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/OrderEndPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/StoreTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/endpoints/PetEndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/PetEndPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/endpoints/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/Routes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
       <recent name="api.endpoints" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PetTests">
+  <component name="RunManager" selected="TestNG.StoreTests">
     <configuration name="DDTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PetStore_API_Testing" />
       <extension name="coverage">
@@ -98,6 +100,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoreTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStore_API_Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.StoreTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PetStore_API_Testing" />
       <extension name="coverage">
@@ -117,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StoreTests" />
         <item itemvalue="TestNG.PetTests" />
         <item itemvalue="TestNG.D:/2022/Java Projects/PetStore_API_Testing/testng.xml" />
         <item itemvalue="TestNG.DDTests" />
@@ -203,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680412349886</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Created PetEndPoints.java Tests to create, read, update and delete pets.">
+      <created>1680420270615</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680420270615</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +254,18 @@
     <MESSAGE value="Updated pom.xml file to add plugins to run in maven." />
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Creating Pet endpoints, classes and first post." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Pet endpoints, classes and first post." />
+    <MESSAGE value="Created PetEndPoints.java Tests to create, read, update and delete pets." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created PetEndPoints.java Tests to create, read, update and delete pets." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/api/endpoints/OrderEndPoints.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

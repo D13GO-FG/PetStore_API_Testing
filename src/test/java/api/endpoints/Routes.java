@@ -20,7 +20,7 @@ public class Routes {
     public static String update_url = base_url + "/user/{username}";
     public static String delete_url = base_url + "/user/{username}";
 
-    // Store module
+    // Pet module
 
     public static String pet_post_url = base_url + "/pet";
     public static String pet_get_url = base_url + "/pet/{id}";
@@ -28,5 +28,9 @@ public class Routes {
     public static String pet_delete_url = base_url + "/pet/{id}";
 
 
-    // Pet module
+    // Store module
+    public static String store_post_url = base_url + "/store/order";
+    public static String store_get_url = base_url + "/store/order/{id}";
+    public static String store_delete_url = base_url + "/store/order/{id}";
+    public static String store_inventory_url = base_url + "/store/inventory";
 }
